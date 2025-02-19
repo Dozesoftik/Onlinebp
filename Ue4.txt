@@ -1,1 +1,6 @@
 MemoryPatch::createWithHex("libUE4.so", 0x7758E48,"B0 B5").Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x65C4EAC,"28 90 85 E5").Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x65D2CCO,"00 1A 81 ED").Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x65D3D80,"03 31 80 E0").Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x65D4184,"00 88 BD 18").Modify();
+MemoryPatch::createWithHex("libUE4.so", 0x65D41D0,"00 00 83 E5").Modify();
