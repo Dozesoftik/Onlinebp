@@ -31,3 +31,9 @@ MemoryPatch::createWithHex(OBFUSCATE("libanogs.so"), 0x3FA43A, "73 68 65 6C 6C 5
 MemoryPatch::createWithHex(OBFUSCATE("libanogs.so"), 0x3FABE6, "72 34 5F 72 65 70 6F 72 74 32 00").Modify();
 MemoryPatch::createWithHex(OBFUSCATE("libanogs.so"), 0x3FE027, "74 64 6D 5F 72 65 70 6F 72 74 00").Modify();
 MemoryPatch::createWithHex(OBFUSCATE("libanogs.so"), 0x3FE036, "43 4F 52 45 52 45 50 4F 52 54 00").Modify();
+MemoryPatch::createWithHex("libanogs.so",0x6FC68, "h 30 00 92 E5") ; //Modify();
+MemoryPatch::createWithHex("libanogs.so",0x6FC6C, "h 30 00 92 E5") ; //Modify();
+MemoryPatch::createWithHex("libanogs.so",0x6FC6E, "h 30 00 92 E5") ; //Modify();
+MemoryPatch::createWithHex("libanogs.so",0x6FC6A, "h 30 00 92 E5") ; //Modify();
+MemoryPatch::createWithHex("libanogs.so",0x6FC70, "h 30 00 92 E5") ; //Modify();
+MemoryPatch::createWithHex("libanogs.so",0x6FC72, "h 30 00 92 E5") ; //Modify();

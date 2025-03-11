@@ -1,0 +1,4 @@
+MemoryPatch::createWithHex("libgcloud.so", 0x42058, "h 30 00 92 E5") ; //Modify();
+MemoryPatch::createWithHex("libgcloud.so", 0x4205A, "h 30 00 92 E5") ; //Modify();
+MemoryPatch::createWithHex("libgcloud.so", 0x42064, "h 30 00 92 E5") ; //Modify();
+MemoryPatch::createWithHex("libgcloud.so", 0x42076, "h 30 00 92 E5") ; //Modify();

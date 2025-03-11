@@ -1,0 +1,3 @@
+MemoryPatch::createWithHex("libRosterNN.so",0xF9214, "h 30 00 92 E5") ; //Modify();
+MemoryPatch::createWithHex("libRosterNN.so",0xF9244 , "h 30 00 92 E5") ; //Modify();
+MemoryPatch::createWithHex("libRosterNN.so",0xF925C, "h 30 00 92 E5") ; //Modify();
