@@ -1,4 +1,0 @@
-MemoryPatch::createWithHex("libanort.so", 0x18A74,"00 C0 A0 E3").Modify();
-MemoryPatch::createWithHex("libanort.so", 0x1A75A,"10 B5").Modify();
-MemoryPatch::createWithHex("libanort.so", 0x1A7B2,"F0 B5").Modify();
-MemoryPatch::createWithHex("libUE4.so", 0x684154C,"08 50 94 E5").Modify();

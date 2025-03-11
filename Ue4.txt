@@ -1,2 +1,0 @@
-MemoryPatch::createWithHex("libRoosterNN.so", 0x9C286,"2D E9 F0 4F").Modify();
-MemoryPatch::createWithHex("libRoosterNN.so", 0x9C7DA,"2D E9 F0 4F").Modify();
