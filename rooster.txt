@@ -1,3 +1,13 @@
 MemoryPatch::createWithHex("libRosterNN.so",0xF9214, "h 30 00 92 E5") ; //Modify();
 MemoryPatch::createWithHex("libRosterNN.so",0xF9244 , "h 30 00 92 E5") ; //Modify();
 MemoryPatch::createWithHex("libRosterNN.so",0xF925C, "h 30 00 92 E5") ; //Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x77090, OBFUSCATE("24 68 EF E7")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x77F60, OBFUSCATE("6D 00 00 00")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x78320, OBFUSCATE("2D E9 F0 4F")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x79220, OBFUSCATE("29 02 00 00")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x793E0, OBFUSCATE("2D E9 F0 4F")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x79C30, OBFUSCATE("10 40 61 F0")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0x7A6B0, OBFUSCATE("84 0A F9 E7")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0xD1880, OBFUSCATE("F0 B5 03 AF")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0xD26A0, OBFUSCATE("00 20 D0 BD")).Modify();
+MemoryPatch::createWithHex("libRoosterNN.so", 0xD6380, OBFUSCATE("F0 B5 03 AF")).Modify();

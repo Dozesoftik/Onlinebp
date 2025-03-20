@@ -37,3 +37,7 @@ MemoryPatch::createWithHex("libanogs.so",0x6FC6E, "h 30 00 92 E5") ; //Modify();
 MemoryPatch::createWithHex("libanogs.so",0x6FC6A, "h 30 00 92 E5") ; //Modify();
 MemoryPatch::createWithHex("libanogs.so",0x6FC70, "h 30 00 92 E5") ; //Modify();
 MemoryPatch::createWithHex("libanogs.so",0x6FC72, "h 30 00 92 E5") ; //Modify();
+MemoryPatch::createWithHex("libanogs.so", 0x8BC30, OBFUSCATE("66 EB 28 46")).Modify();//fix ban 1d
+MemoryPatch::createWithHex("libanogs.so", 0x8BEB0, OBFUSCATE("14 AF E3 45")).Modify();//fix ban 1d
+MemoryPatch::createWithHex("libanogs.so", 0x8CBE0, OBFUSCATE("AA AE DA E6")).Modify();//fix ban 1d
+MemoryPatch::createWithHex("libanogs.so", 0x8E090, OBFUSCATE("B2 45 BF F6")).Modify();//fix ban 1d

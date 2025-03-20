@@ -1,4 +1,14 @@
-MemoryPatch::createWithHex("libgcloud.so", 0x42058, "h 30 00 92 E5") ; //Modify();
-MemoryPatch::createWithHex("libgcloud.so", 0x4205A, "h 30 00 92 E5") ; //Modify();
-MemoryPatch::createWithHex("libgcloud.so", 0x42064, "h 30 00 92 E5") ; //Modify();
-MemoryPatch::createWithHex("libgcloud.so", 0x42076, "h 30 00 92 E5") ; //Modify();
+MemoryPatch::createWithHex("libGCloudVoice.so", 0x24920, OBFUSCATE("94 30 9F E5")).Modify();
+MemoryPatch::createWithHex("libGCloudVoice.so", 0x24CA0, OBFUSCATE("69 30 D0 E5")).Modify();
+MemoryPatch::createWithHex("libGCloudVoice.so", 0xBCEF0, OBFUSCATE("04 20 A0 E3")).Modify();
+MemoryPatch::createWithHex("libGCloudVoice.so", 0xBD490, OBFUSCATE("01 00 A0 E3")).Modify();
+MemoryPatch::createWithHex("libGCloudVoice.so", 0xBDBF0, OBFUSCATE("98 A6 04 EA")).Modify();
+MemoryPatch::createWithHex("libGCloudVoice.so", 0xBDC90, OBFUSCATE("D0 FB 2A 00")).Modify();
+MemoryPatch::createWithHex("libGCloudVoice.so", 0xBE260, OBFUSCATE("E4 F5 2A 00")).Modify();
+MemoryPatch::createWithHex("libGCloudVoice.so", 0xBE670, OBFUSCATE("F8 40 2D E9")).Modify();
+MemoryPatch::createWithHex("libGCloudVoice.so", 0xBE8E0, OBFUSCATE("CF FF FF EA")).Modify();
+MemoryPatch::createWithHex("libGCloudVoice.so", 0xBEC20, OBFUSCATE("24 ED 2A 00")).Modify();
+MemoryPatch::createWithHex("libGCloudVoice.so", 0xBF7F0, OBFUSCATE("00 00 A0 83")).Modify();
+MemoryPatch::createWithHex("libGCloudVoice.so", 0x160E30, OBFUSCATE("73 40 2D E9")).Modify();
+MemoryPatch::createWithHex("libGCloudVoice.so", 0x162630, OBFUSCATE("66 66 66 3F")).Modify();
+MemoryPatch::createWithHex("libGCloudVoice.so", 0x209B50, OBFUSCATE("18 2D 44 54")).Modify();
